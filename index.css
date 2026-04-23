@@ -1,0 +1,51 @@
+
+body{
+max-width:1024px;
+max-height: 768px;
+background-color:#182e68;
+
+      margin: 0;
+      padding: 0;
+
+}
+
+#laisserfaire
+{
+    position: fixed;
+left:280px;
+top:70px;
+  /*
+  z-index: 2;
+  display: block;
+  vertical-align: top;
+  position: relative;
+  margin-right: -10000px;
+  margin-top: 24px;
+  left: 68px;
+  */
+}
+
+#titre_mach
+{
+    position: fixed;
+left:54px;
+top:634px;
+
+}
+
+#titre_envi
+{
+    position: fixed;
+left:355px;
+top:634px;
+
+}
+
+#titre_hum
+{
+    position: fixed;
+left:764px;
+top:634px;
+
+
+}

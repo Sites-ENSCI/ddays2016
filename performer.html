@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Performer</title>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:900,300,300italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+   
+
+
+
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 80%;
+        margin: 60px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+  </style>
+
+</head>
+<body>
+  <script type="text/javascript">
+ 
+</script>
+
+<div class="flex-container">
+
+<div class="flex-item diaporama">
+<div id="return">
+<a href="humain.html"> 
+<img src="./images/flecha.png"></a>
+
+    <img class="grpelem" id="u90-4" alt="LAISSER FAIRE L'HUMAIN" width="460" height="48" src="images/u90-4.png"/><!-- rasterized frame -->
+    <img class="grpelem" id="u186-4" alt="?" width="23" height="48" src="images/u186-4.png"/><!-- 
+
+
+<!-- 
+
+    <img class="grpelem interro" id="u186-4" alt="?" width="23" height="48" src="images/u186-4.png"/>
+    <img class="grpelem interro" id="u186-4" alt="?" width="23" height="48" src="images/pregunta.png"/>
+    <img class="grpelem" id="u90-4" alt="LAISSER FAIRE L'HUMAIN" width="460" height="48" src="images/u90-4.png"/>
+ <img class="grpelem interro" id="u186-4" alt="?" width="23" height="48" src="images/u186-4.png"/>rasterized frame -->
+
+<!-- <div id="textRetour">
+Laisser Faire l'humain
+</div>
+penser a changer les liens pour le retour  --> 
+  <!-- <div><a href="mapage.html"> <img src="./images/homme_title-02.png"></a>
+</a> </div>
+-->
+</div>
+
+<!-- debut du diaporama --> 
+  <section class="center slider">
+  <!-- image 1 --> 
+
+    <div>
+      <img src="./images/performer1.png" >
+    </div>
+
+     <div>
+    <video width="630" height="480" controls>
+  <source src="./images/performer2.mp4" type="video/mp4">
+ 
+Your browser does not support the video tag.
+</video>
+  </div>
+
+	<div>
+      <img src="./images/performer3.png" >
+    </div>
+
+	<div>
+      <img src="./images/performer4.png" >
+    </div>
+
+  </section>
+
+</div>
+<!-- fin du diaporama --> 
+
+
+<div class="flex-item texte">
+
+<div id="titre">
+
+<h1>
+Per-former
+</h1>
+<h2>
+Jérémy Gaudibert
+</h2>
+<h3>
+2015
+</h3>
+
+
+</div>
+
+
+<div id="intro">
+Projet de diplôme
+Pour son projet de diplôme, Jérémy Gaudibert a mis en place une méthode de création basée sur le geste et l’expérience de la forme. Toute sa réflexion s’ancre autour d’un volume simple, un cylindre découpé en seize faces. 
+
+</div>
+
+
+<div id="textecomplet" style="display: none">
+Il propose à une danseuse d’évoluer autour et avec cette matrice, l'expérimentation est d’abord très libre. Par la suite, le designer donne plus de directives et guide l’interprète dans ses gestes. Cette rencontre de l’homme avec la forme préfigure des usages et des principes structuraux que Jérémy Gaudibert réinvestit dans la création d’objets. Il en résulte une série de pièces, dont les usages varient du panier à la table. Cette dernière, ici exposée, se plie et se déploie. Elle reprend la stabilité structurelle du cylindre découpé.
+Dans ce projet, le designer a choisi de valoriser la place du corps dans la conception d’objets par l’expérience de la forme. C’est à ce stade de la création qu’il laisse un autre s'emparer et interpréter l’objet.
+
+</div>
+<div class="flechetexte">
+ <img class="fleche" src="./images/flech2.png" >
+  <img  class="fleche" style="display: none" src="./images/flech2.1.png" >
+
+ </div>
+
+</div>
+</div>
+
+
+
+
+
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+
+
+    $(document).on('ready', function() {
+   var a=document.getElementsByTagName("a");
+    for(var i=0;i<a.length;i++)
+    {
+       a[i].onclick=function()
+       {
+           window.location=this.getAttribute("href");
+           return false
+       }
+    }
+//	 $( "#textecomplet" ).hide();
+
+$( ".flechetexte" ).click(function() {
+
+$(".fleche").toggle();
+$("#textecomplet").toggle();
+
+
+
+});
+
+
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+  adaptiveHeight: true,
+centerMode:true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+          variableWidth: true
+
+      });
+ 
+    });
+  </script>
+
+</body>
+</html>

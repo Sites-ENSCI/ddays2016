@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>laisser faire l'humain</title>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:900,300,300italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="humain.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+ <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+   
+
+
+
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 80%;
+        margin: 60px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+  </style>
+
+</head>
+<body>
+  <script type="text/javascript">
+ 
+</script>
+
+<div class="flex-container">
+
+<div class="flex-item diaporama">
+<div id="return">
+<a href="index.html"> 
+<img src="./images/flecha.png"></a>
+
+    <img class="grpelem" id="u90-4" alt="LAISSER FAIRE L'HUMAIN" width="460" height="48" src="images/u90-4.png"/><!-- rasterized frame -->
+    <img class="grpelem" id="u186-4" alt="?" width="23" height="48" src="images/u186-4.png"/>
+   <p id="texte">
+   Série de projet conçus par des designers dont la volonté est de laisser 
+une partie de la création à un usager, un ouvrier, un individu, un collectif,
+une communauté.
+</p>
+
+
+
+
+<!-- 
+
+    <img class="grpelem interro" id="u186-4" alt="?" width="23" height="48" src="images/u186-4.png"/>
+    <img class="grpelem interro" id="u186-4" alt="?" width="23" height="48" src="images/pregunta.png"/>
+    <img class="grpelem" id="u90-4" alt="LAISSER FAIRE L'HUMAIN" width="460" height="48" src="images/u90-4.png"/>
+ <img class="grpelem interro" id="u186-4" alt="?" width="23" height="48" src="images/u186-4.png"/>rasterized frame -->
+
+<!-- <div id="textRetour">
+Laisser Faire l'humain
+</div>
+penser a changer les liens pour le retour  --> 
+  <!-- <div><a href="mapage.html"> <img src="./images/homme_title-02.png"></a>
+</a> </div>
+-->
+</div>
+
+<!-- debut du diaporama --> 
+ 
+
+</div>
+<!-- fin du diaporama --> 
+
+
+
+<a href="wall.html">  <img id="bwall" width="125" height="145" src="images/bwall.png"/> </a>
+
+<a href="canape.html">  <img id="bcanape" width="269" height="126" src="images/bmellow.png"/></a>
+
+<a href="reprap.html"> <img id="breprep" width="159" height="153" src="images/breprep.png"/></a>
+
+<a href="docut.html"> <img id="bdocut" width="111" height="329" src="images/bdocut.png"/></a>
+
+<a href="bouilloire.html"> <img id="bbou" width="146" height="160" src="images/bbou.png"/></a>
+
+<a href="performer.html"><img id="bperformer" width="125" height="179" src="images/bperformer.png"/></a>
+
+<a href="deformation.html"><img id="bdeformation" width="346" height="110" src="images/bdeformation.png"/></a>
+
+<a href="ensci.html"><img id="bensci" width="128" height="119" src="images/bensci.png"/></a>
+
+<a href="ile.html"><img id="bile" width="194" height="145" src="images/bile.png"/></a>
+
+
+</div>
+
+
+
+
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+
+
+    $(document).on('ready', function() {
+   var a=document.getElementsByTagName("a");
+    for(var i=0;i<a.length;i++)
+    {
+       a[i].onclick=function()
+       {
+           window.location=this.getAttribute("href");
+           return false
+       }
+    }
+
+
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,228 @@
+
+body{
+max-width:1024px;
+max-height: 768px;
+background-color: #e7f0f4;
+
+      margin: 0;
+      padding: 0;
+
+}
+
+#u90-6
+{
+    display: block;
+
+    margin-top: -60px;
+margin-left: 68px;
+  /*
+  z-index: 2;
+  display: block;
+  vertical-align: top;
+  position: relative;
+  margin-right: -10000px;
+  margin-top: 24px;
+  left: 68px;
+  */
+}
+
+#u364-5
+{
+    display: block;
+
+    margin-top: -55px;
+margin-left: 585px;
+  /*
+  z-index: 31;
+  display: block;
+  vertical-align: top;
+  position: relative;
+  margin-right: -10000px;
+  margin-top: 19px;
+  left: 534px;
+  */
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.flex-item {
+
+    -webkit-flex: 1 auto;
+    flex: 1 auto;
+}
+
+
+#return{
+
+width:600px;
+padding-top: -20px;
+  }
+
+
+.diaporama{
+width: 70%;
+ padding-top: -10px;
+
+  }
+
+  .texte{
+
+width: 30%;
+ padding-top: -10px;
+
+  }
+
+
+  #titre{
+text-align: left;
+  padding-top: 75px;
+
+
+  }
+
+
+.flechetexte{
+  margin-left: 90px;
+  padding-top: 5px;
+  text-align: left;
+
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+
+font-size: 32px;
+font-weight:900;
+line-height: 100%;
+    color:#172f67;
+
+}
+
+h2{
+font-family: 'Roboto', sans-serif;
+font-weight:300;
+font-size: 18px;
+line-height: 20%;
+    color:#172f67;
+
+
+}
+
+h3{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight:300;
+font-style: italic;
+line-height: 20%;
+    color:#172f67;
+
+}
+
+p{
+font-family: 'Roboto', sans-serif;
+ font-size:18px;
+ padding-left: 70px;
+margin-top: 5px;
+ color:#172f67;
+
+}
+
+
+#btypo{
+  position: fixed;
+left: 152px;
+top: 171px;
+
+}
+#btrend {
+  position: fixed;
+left: 59px;
+top: 327px;
+
+}
+
+#bhermanographe {
+  position: fixed;
+left: 114px;
+top: 473px;
+
+}
+
+#btopo{
+  position: fixed;
+left: 363px;
+top: 577px;
+
+}
+
+#bstratergie{
+  position: fixed;
+left: 463px;
+top: 170px;
+
+}
+
+#bvase44{
+  position: fixed;
+left: 450px;
+top: 393px;
+
+}
+
+#bserviette{
+  position: fixed;
+left:549px;
+top: 579px;
+}
+
+#btransfert{
+  position: fixed;
+left:806px;
+top: 285px;
+}
+
+#bmit{
+  position: fixed;
+left:787px;
+top: 495px;
+}
+
+#bgrow{
+  position: fixed;
+left:280px;
+top: 216px;
+}
+
+#bbracelet{
+  position: fixed;
+left:628px;
+top: 225px;
+}
+
+#intro {
+padding-right: 20px;
+
+    text-align: left;
+   	color:#172f67;
+    text-justify: inter-word;
+    font-family: 'Roboto', sans-serif;
+ font-size:15px;
+
+  }
+
+#textecomplet {
+  padding-right: 20px;
+
+    text-align: left;
+    color:#172f67;
+    text-justify: inter-word;
+    font-family: 'Roboto', sans-serif;
+ font-size:15px;
+  
+}
+
